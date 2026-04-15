@@ -1,9 +1,9 @@
 # Template file for 'LuaJIT'
 pkgname=LuaJIT
 # the minor version is the contents of the .relver file in the source tarball
-version=2.1.1748459687
+version=2.1.1774896198
 revision=1
-_commit_hash=f9140a622a0c44a99efb391cc1c2358bc8098ab7
+_commit_hash=18b087cd2cd4ddc4a79782bf155383a689d5093d
 build_style=gnu-makefile
 hostmakedepends="lua52-BitOp"
 short_desc="Just-In-Time Compiler for Lua"
@@ -11,7 +11,7 @@ maintainer="Daniel Martinez <danielmartinez@cock.li>"
 license="MIT"
 homepage="https://www.luajit.org"
 distfiles="https://repo.or.cz/luajit-2.0.git/snapshot/${_commit_hash}.tar.gz"
-checksum=a1af74fca9971355dc6d4cf32d56e278aa8897898ab5f62725de5aeb730ee381
+checksum=b0e14af28cbfdaa3f462257de894892cac454038aaba5f22c4e58bf3adc8b50b
 
 _host_cc="cc"
 if [ -n "$CROSS_BUILD" ]; then
